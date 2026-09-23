@@ -140,16 +140,27 @@ software from Fwoce Media.">
     font-weight:700;color:#4A5563}
 
 
-  /* Ko-fi's widget pins itself bottom-right. Both buttons belong on the left,
-     with Buy Me a Coffee underneath, so its container is repositioned here.
-     The selector is broad because the widget's element id is not part of any
-     documented API and could change. */
+  /* Both support buttons sit bottom left, Buy Me a Coffee above Ko-fi.
+     Ko-fi already places itself on the left, so it only needs pinning to the
+     bottom. Buy Me a Coffee ignores its own data-position="Left" and
+     hard-codes the right, so it is moved here instead.
+     These selectors match the widgets' own element ids, which are not part of
+     any documented API - if either service changes them, the button returns
+     to wherever the widget puts it by default. */
   #kofi-widget-overlay,
   [id^="kofi-widget"],
   iframe[src*="ko-fi.com"]{
     left:18px !important;
     right:auto !important;
-    bottom:86px !important;
+    bottom:18px !important;
+  }
+
+  #bmc-wbtn,
+  [id^="bmc-w"],
+  div[class*="bmc-btn"]{
+    left:18px !important;
+    right:auto !important;
+    bottom:92px !important;
   }
 
   @media (max-width:640px){
