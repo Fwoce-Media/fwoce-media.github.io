@@ -163,6 +163,12 @@ software from Fwoce Media.">
     bottom:92px !important;
   }
 
+  /* The floating widgets sit over the bottom-left corner, which is where the
+     footer ends up on a phone. Leave enough room underneath that they never
+     cover the footer links or the slogan. */
+  footer{padding-bottom:120px}
+  @media (max-width:900px){ footer{padding-bottom:170px} }
+
   @media (max-width:640px){
     header{padding:40px 0 48px}
     header .tag{font-size:16px}
@@ -286,7 +292,7 @@ software from Fwoce Media.">
   src="https://cdnjs.buymeacoffee.com/1.0.0/widget.prod.min.js"
   data-id="Fwoce_Media"
   data-description="Support me on Buy me a coffee!"
-  data-message="Thank You For Your Support"
+  data-message=""
   data-color="#0066FF"
   data-position="Left"
   data-x_margin="18" data-y_margin="18"></script>
