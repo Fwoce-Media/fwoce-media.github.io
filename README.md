@@ -22,6 +22,8 @@ streams from us, and nothing is uploaded.
 
 - **MP3 Rabbit** — an offline music player for Android.
   [App page](https://fwoce-media.github.io/mp3rabbit/)
+- **WatchFlix** — a front end for the films and shows you own, for Windows.
+  [Download](https://github.com/Fwoce-Media/watchflix/releases/latest)
 
 More listed on the site as they are released.
 
