@@ -4,8 +4,8 @@ The Fwoce Media website.
 
 **Live at [fwoce-media.github.io](https://fwoce-media.github.io/)**
 
-This repository holds the site itself — there is no application source code
-here. It serves the landing page, the app pages, and `app-ads.txt`.
+This repository holds the site itself, 
+It serves the landing page, the app pages, and `app-ads.txt`.
 
 ## What is in here
 
