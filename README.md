@@ -24,6 +24,8 @@ streams from us, and nothing is uploaded.
   [App page](https://fwoce-media.github.io/mp3rabbit/)
 - **WatchFlix** — a front end for the films and shows you own, for Windows.
   [Download](https://github.com/Fwoce-Media/watchflix/releases/latest)
+- **AniWatch** — a front end for the anime you own, for Windows.
+  [Download](https://github.com/Fwoce-Media/aniwatch/releases/latest)
 
 More listed on the site as they are released.
 
