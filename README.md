@@ -27,6 +27,8 @@ streams from us, and nothing is uploaded.
 - **AniWatch** — a front end for the anime you own, for Windows.
   [Download](https://github.com/Fwoce-Media/aniwatch/releases/latest)
 
+In development: **Game Box**, a game library for PC and emulated games, for Windows.
+
 More listed on the site as they are released.
 
 ## Support
