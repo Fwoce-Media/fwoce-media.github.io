@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Rabbit Downloader — Privacy</title>
+<link rel="icon" href="../apps/fwoce-mark.png">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;800&display=swap" rel="stylesheet">
+<style>
+  body{margin:0;background:#0A0A0A;color:#fff;font:16.5px/1.7 "Montserrat",-apple-system,"Segoe UI",Roboto,sans-serif}
+  .wrap{max-width:760px;margin:0 auto;padding:56px 22px 80px}
+  h1{font-size:34px;font-weight:800;margin:0 0 6px}
+  h2{font-size:20px;font-weight:800;margin:36px 0 8px;color:#00B4FF}
+  p,li{color:#C9D3DD}
+  .muted{color:#8A98A8;font-size:14px}
+  a{color:#00B4FF}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>Rabbit Downloader — Privacy</h1>
+  <p class="muted">The Windows app and its browser extension · Fwoce Media · October 2026</p>
+
+  <h2>In short</h2>
+  <p>Rabbit Downloader collects nothing about you. Nothing is sent to Fwoce Media or to anyone else. There are no accounts, no analytics and no tracking.</p>
+
+  <h2>The browser extension</h2>
+  <ul>
+    <li>When you download a file, or press Download on a video or in the extension's menu, the extension hands the link to the Rabbit Downloader app <b>on the same computer</b> (at 127.0.0.1). It never sends anything over the internet itself.</li>
+    <li>With the link it hands over the page's address, the file's name, and the site's cookies for that link, so the app can download what the browser could. They go only to the app on your computer and are not kept after the download.</li>
+    <li>To list the videos and sounds a page plays, the extension looks at the type and size of what the page loads. It keeps that list in memory for the open tab only, and forgets it when you leave the page.</li>
+    <li>It stores one setting in the browser: whether it takes downloads.</li>
+  </ul>
+
+  <h2>The app</h2>
+  <ul>
+    <li>Downloads go straight from the website to your computer. Settings and the list of downloads stay on your computer.</li>
+    <li>The app connects to GitHub only to check for a newer version of itself and of its helper programs (FFmpeg, aria2, yt-dlp, Deno), and to download them.</li>
+    <li>Torrents are shared with other people downloading the same torrent, as all torrent programs do; sharing after a download finishes is off unless you turn it on.</li>
+  </ul>
+
+  <h2>Contact</h2>
+  <p>Questions: open an issue at <a href="https://github.com/Fwoce-Media/rabbit-downloader/issues">github.com/Fwoce-Media/rabbit-downloader</a>.</p>
+</div>
+</body>
+</html>
