@@ -4,7 +4,7 @@ The Fwoce Media website.
 
 **Live at [fwoce-media.github.io](https://fwoce-media.github.io/)**
 
-This repository holds the site itself, 
+This repository holds the site itself.
 It serves the landing page, the app pages, and `app-ads.txt`.
 
 ## What is in here
@@ -27,7 +27,8 @@ streams from us, and nothing is uploaded.
 - **AniWatch** — a front end for the anime you own, for Windows.
   [Download](https://github.com/Fwoce-Media/aniwatch/releases/latest)
 
-In development: **Game Box**, a game library for PC and emulated games, for Windows.
+- **Game Box** — your PC and emulated games in one library, for Windows (early test release).
+  [Download](https://github.com/Fwoce-Media/gamebox/releases/latest)
 
 More listed on the site as they are released.
 
